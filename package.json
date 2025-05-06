@@ -4,11 +4,8 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/css/tailwind.css --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/uideck/play-tailwind.git"
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/css/tailwind.css --watch",
+    "start": "npm run dev"
   },
   "keywords": [],
   "author": "",
